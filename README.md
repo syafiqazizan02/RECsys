@@ -11,7 +11,7 @@ It also allows data stored in large quantities without easy to lose data by usin
 # Technology are being used
 1) Jquery
 2) AJAX, JSON
-3) PHP
+3) PHP, MySQL
 4) HTML, CSS
 5) Bootstrap
 6) Chart.js
