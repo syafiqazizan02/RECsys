@@ -8,7 +8,7 @@
   <main class="app-content">
     <div class="app-title">
       <div>
-        <h4>MAINTENANCE</h4><span id="date_time"></span></small>
+        <h4>MAINTENANCE</h4><small><span id="date_time"></span></small>
       </div>
       <?php include "chatting_seen_notification.php"; ?>
       <ul class="app-breadcrumb breadcrumb side">
@@ -80,7 +80,7 @@
                         <td><?php echo $rep_date ?></td>
                         <td>
                           <?php include('maintenance_paddle_repair_edit.php'); ?>
-                          <a href="#edit<?php echo $dam_id; ?>" data-toggle="modal" class="btn btn-warning btn-sm"  style="color:#ffffff;"><i class="fa fa-fw fa-lg fa-check-circle"></i>Done</a>
+                          <a href="#edit<?php echo $dam_id; ?>" data-toggle="modal" class="btn btn-warning btn-sm"  style="color:#ffffff;"  id="popoverInfo" rel="popover" data-trigger="hover" data-placement="top" data-original-title="" data-content="Record the facilities that complete repaired!"><i class="fa fa-fw fa-lg fa-check-circle"></i>Complete</a>
                         </td>
                         <td>
                           <form action='maintenance_paddle_status.php' method='post' >

@@ -8,7 +8,7 @@
   <main class="app-content">
     <div class="app-title">
       <div>
-        <h4>MAINTENANCE</h4>
+        <h4>MAINTENANCE</h4><small><span id="date_time"></span></small>
       </div>
       <ul class="app-breadcrumb breadcrumb side">
         <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
@@ -163,7 +163,7 @@
                               echo "<a onclick='return confirm(\"Are You Sure?\");'><button class='btn btn-danger btn-sm' name='cancel'><i class='fa fa-trash'></i></button></a>";
                             }
                             else{
-                              echo "<a onclick='return confirm(\"Are You Sure?\");'><button class='btn btn-warning btn-sm' style='color:#ffffff;' name='repair'><i class='fa fa-fw fa-lg fa-check-circle'></i>Repair</button></a>";
+                              echo "<a onclick='return confirm(\"Are You Sure?\");'><button class='btn btn-warning btn-sm' style='color:#ffffff;' name='repair' id='popoverInfo' rel='popover' data-trigger='hover' data-placement='top' data-original-title='' data-content='Record the facilities that need to be repaired!'><i class='fa fa-fw fa-lg fa-check-circle'></i>Repair</button></a>";
                             }
                             ?>
                           </form>

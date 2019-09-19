@@ -9,6 +9,10 @@
 <script src="../js/plugins/dataTables.bootstrap.min.js"></script>
 
 <script type="text/javascript">
+<!--Instruction Popover-->
+$('#popoverInfo').popover();
+$('#btn_extreme').popover();
+
 <!--Data Table-->
 $('#data-table').DataTable();
 
@@ -44,18 +48,19 @@ $(document).ready(function(){
   });
 });
 
+
 <!--Onkeyup Customer Info-->
 $(document).ready(function() {
-  $('#cust_ic').change(function() {
+  $('#cust_ic').keyup(function() {
     var cust_ic = $(this).val();
-    $.ajax({
-      url: 'transaction_panel_fetch_check.php',
-      method: "POST",
-      data: {
-        cust_ic: cust_ic
-      },
-      success: function(data) {
-        if (data != '0') {
+    // $.ajax({
+    //   url: 'transaction_panel_fetch_check.php',
+    //   method: "POST",
+    //   data: {
+    //     cust_ic: cust_ic
+    //   },
+    //   success: function(data) {
+        // if (data != '0') {
           $.ajax({
             url: "transaction_panel_fetch_customer.php",
             type: "POST",
@@ -72,14 +77,15 @@ $(document).ready(function() {
               $("#cust_contact").val(data.cust_contact);
             }
           });
-        } else {
-          alert("Customer information not exist. Please make new register!");
-          window.location.reload(true);
-        }
-      }
-    });
+    //     } else {
+    //       alert("Visitor need to make a new register!");
+    //       window.location.reload(true);
+    //     }
+    //   }
+    // });
   });
 });
+
 
 <!--Transaction Reserve Panel-->
 $(document).ready(function() {

@@ -7,7 +7,7 @@
   <main class="app-content">
     <div class="app-title">
       <div>
-        <h4>MAINTENANCE</h4>
+          <h4>MAINTENANCE</h4><small><span id="date_time"></span></small>
       </div>
       <ul class="app-breadcrumb breadcrumb side">
         <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>

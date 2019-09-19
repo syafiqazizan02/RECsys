@@ -4,7 +4,6 @@
 <?php include "dbconnection.php"; ?>
 
 <body class="app sidebar-mini rtl">
-
   <main class="app-content">
     <div class="app-title">
       <div>

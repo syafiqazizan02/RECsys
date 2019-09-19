@@ -22,7 +22,7 @@
 
         ?>
         <div class="modal-header">
-          <h5 class="modal-title" class="modal-header">MAINTENANCE <small>Done Detail</small></h5>
+          <h5 class="modal-title" class="modal-header">MAINTENANCE <small>Complete Detail</small></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
         <form action="maintenance_kayak_repair_update.php" method="post" enctype="multipart/form-data" class="form-horizontal">

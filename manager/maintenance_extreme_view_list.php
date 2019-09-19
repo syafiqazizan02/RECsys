@@ -45,7 +45,7 @@
   <?php } ?>
   <div class="col-md-12">
     <div align="right">
-      <button type="button" name="btn_extreme" id="btn_extreme" class="btn btn-primary btn-sm"><i class='fa fa-exchange'></i>Update</button>
+      <button type="button" name="btn_extreme" id="btn_extreme" class="btn btn-primary btn-sm" rel="popover" data-trigger="hover" data-placement="top" data-original-title="" data-content="Record the facilities under maintenance or cant be used during raining!"><i class='fa fa-exchange'></i>Update</button>
     </div>
   </div>
 </div>

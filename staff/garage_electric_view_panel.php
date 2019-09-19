@@ -7,7 +7,7 @@
   <main class="app-content">
     <div class="app-title">
       <div>
-        <h4>MAINTENANCE</h4><span id="date_time"></span></small>
+        <h4>MAINTENANCE</h4><small><span id="date_time"></span></small>
       </div>
       <?php include "chatting_seen_notification.php"; ?>
       <ul class="app-breadcrumb breadcrumb side">

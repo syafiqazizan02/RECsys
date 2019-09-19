@@ -16,7 +16,6 @@
       </ul>
     </div>
     <?php include "maintenance_kayak_bar.php"; ?>
-
     <div class="row">
       <div class="col-md-12">
         <div class="bs-component">
@@ -82,7 +81,7 @@
                   </tbody>
                 </table>
                 <div align="right">
-                  <button class="btn btn-primary btn-sm" type="submit" name="checked"><i class="fa fa-fw fa-lg fa-check-circle"></i>Checked</button>
+                  <button class="btn btn-warning btn-sm" style='color:#ffffff;'  type="submit" name="checked" id="popoverInfo" rel="popover" data-trigger="hover" data-placement="top" data-original-title="" data-content="Record the facilities that damaged!"><i class="fa fa-fw fa-lg fa-check-circle"></i>Damage</button>
                 </div>
               </div>
               <div class="card-footer">

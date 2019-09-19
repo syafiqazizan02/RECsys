@@ -7,7 +7,7 @@
   <main class="app-content">
     <div class="app-title">
       <div>
-        <h4>MAINTENANCE</h4><span id="date_time"></span></small>
+        <h4>MAINTENANCE</h4><small><span id="date_time"></span></small>
       </div>
       <?php include "chatting_seen_notification.php"; ?>
       <ul class="app-breadcrumb breadcrumb side">
@@ -83,7 +83,7 @@
                   </tbody>
                 </table>
                 <div align="right">
-                  <button class="btn btn-primary btn-sm" type="submit" name="checked"><i class="fa fa-fw fa-lg fa-check-circle"></i>Checked</button>
+                  <button class="btn btn-warning btn-sm" style='color:#ffffff;'  type="submit" name="checked" id="popoverInfo" rel="popover" data-trigger="hover" data-placement="top" data-original-title="" data-content="Record the facilities that damaged!"><i class="fa fa-fw fa-lg fa-check-circle"></i>Damage</button>
                 </div>
               </div>
               <div class="card-footer">
